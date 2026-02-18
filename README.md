@@ -4,8 +4,7 @@ Proyecto de Currículum Vitae interactivo desarrollado como parte de la Evaluaci
 
 ## Demo
 
-- Demo en vivo: (link GitHub Pages)
-- Repositorio: (link GitHub)
+- ver aqui: (git@github.com:krizgold89-coder/CV-interactivo.git)
 
 ## Tecnologías Utilizadas
 

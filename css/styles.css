@@ -1,0 +1,160 @@
+/* =========
+   Estilos generales
+   ========= */
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+/* Que las secciones no queden tapadas por la navbar fija al hacer scroll */
+header,
+section {
+    scroll-margin-top: 80px;
+}
+
+/* =========
+   Navbar
+   ========= */
+
+.navbar-brand {
+    letter-spacing: 0.5px;
+}
+
+.navbar .nav-link {
+    font-weight: 500;
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+    color: #0d6efd;
+}
+
+/* Botón de tema un poco más compacto */
+#btn-theme {
+    font-size: 0.85rem;
+    padding: 0.3rem 0.75rem;
+}
+
+/* =========
+   Header / Perfil
+   ========= */
+
+header img {
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);
+}
+
+/* =========
+   Cards de experiencia
+   ========= */
+
+.interactive-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.interactive-card.card-highlight {
+    transform: translateY(-5px);
+    box-shadow: 0 0.75rem 1.5rem rgba(0,0,0,.25);
+}
+
+/* =========
+   Listas y badges (educación / cursos)
+   ========= */
+
+.list-group-item {
+    border-left: 4px solid #0d6efd;
+}
+
+.badge {
+    border-radius: 999px;
+}
+
+/* =========
+   Sección contacto
+   ========= */
+
+#contacto a {
+    transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+
+#contacto a:hover {
+    text-decoration: underline;
+}
+
+/* Validación visual de Bootstrap */
+.form-control.is-valid {
+    border-color: #198754;
+}
+
+.form-control.is-invalid {
+    border-color: #dc3545;
+}
+
+/* =========
+   Footer
+   ========= */
+
+footer {
+    font-size: 0.9rem;
+}
+
+/* =========
+   Modo oscuro (body.dark-mode)
+   ========= */
+
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;  /* texto general blanco */
+}
+
+/* Asegurar textos blancos en header, secciones y footer */
+body.dark-mode header,
+body.dark-mode section,
+body.dark-mode footer {
+    background-color: transparent;
+    color: #ffffff;
+}
+
+/* TODOS los textos en blanco en modo oscuro */
+body.dark-mode p,
+body.dark-mode .lead,
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode h5,
+body.dark-mode h6 {
+    color: #ffffff;
+}
+
+/* FORZAR el párrafo del perfil (el de Ingeniería Financiera) a blanco puro */
+body.dark-mode header .lead {
+    color: #ffffff !important;
+}
+
+/* list-group y fondos claros adaptados al oscuro */
+body.dark-mode .list-group-item {
+    background-color: #1f1f1f;
+    border-color: #343a40;
+    color: #ffffff;
+}
+
+/* Secciones con bg-light o bg-light-subtle en modo oscuro */
+body.dark-mode .bg-light-subtle,
+body.dark-mode .bg-light {
+    background-color: #1f1f1f !important;
+}
+
+/* Cards en modo oscuro por si el JS no las modifica */
+body.dark-mode .card {
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+
+/* Enlaces con buen contraste */
+body.dark-mode a {
+    color: #f8f9ff;
+}
+
+
