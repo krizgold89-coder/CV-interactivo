@@ -4,7 +4,7 @@ Currículum Vitae web **interactivo y responsivo**, desarrollado como parte de l
 
 ## 🚀 Demo
 
-- GitHub Pages: _(agrega aquí el enlace cuando lo publiques)_
+- GitHub Pages: _(https://github.com/krizgold89-coder/CV-interactivo)_
 
 ## 🛠 Tecnologías Utilizadas
 
